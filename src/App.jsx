@@ -11,10 +11,9 @@ import {
   Sparkles,
 } from "lucide-react";
 
-const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(
-  /\/$/,
-  "",
-);
+const API_URL = (
+  import.meta.env.VITE_API_URL || "https://mental-health-score-udc7.onrender.com"
+).replace(/\/$/, "");
 
 const initialForm = {
   age: "22",
